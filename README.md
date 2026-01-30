@@ -44,7 +44,7 @@ We propose **MMRL18K**, a comprehensive multimodal reasoning dataset containing 
 
 ## 📊 Results
 
-MBPO demonstrates significant improvements over baseline methods across multiple multimodal reasoning benchmarks. We evaluate on MMK12 dataset, comparing against GRPO, DAPO, and GSPO methods.
+MBPO demonstrates significant improvements over baseline methods across multiple multimodal reasoning benchmarks. We evaluate on MMK12 dataset, comparing against representative baseline methods including GRPO, DAPO, and GSPO.
 
 <div align="center">
   <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
