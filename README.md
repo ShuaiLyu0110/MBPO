@@ -48,6 +48,7 @@ MBPO demonstrates significant improvements over baseline methods across multiple
 
 <div align="center">
   <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
+  <p><em>Figure: Performance analysis showing MBPO's improvements across different metrics and datasets compared to baseline methods.</em></p>
 </div>
 
 ### Table 2: Performance on Geometry3K Dataset
@@ -100,7 +101,7 @@ If you find this work useful, please cite:
 ## 🔗 Resources
 
 - **📄 Paper**: Coming soon~
-- **💻 Code**: [GitHub](https://github.com/ShuaiLyu0110/MBPO)
+- **💻 Code**: Code will be available after acceptance
 - **📦 Dataset**: MMRL18K dataset will be released soon~
 
 ## 📝 License
@@ -116,4 +117,3 @@ We thank the verl framework and the open-source community for their valuable con
 <div align="center">
   <p>Made with ❤️ by the MBPO Team</p>
 </div>
-
