@@ -44,7 +44,14 @@ MBPO addresses these challenges in multimodal settings by:
 
 MBPO demonstrates significant improvements over baseline methods across multiple multimodal reasoning benchmarks. We evaluate on Geo3K and K12 datasets, comparing against GRPO, DAPO, and GSPO methods.
 
+<div align="center">
+  <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
+  <p><em>Figure: Performance analysis showing MBPO's improvements across different metrics and datasets compared to baseline methods.</em></p>
+</div>
+
 ### Table 2: Performance on Geo3K Dataset
+
+The following table presents detailed performance metrics on the Geo3K dataset, evaluating MBPO against GRPO, DAPO, and GSPO methods across Qwen-3B and Qwen-7B models. MBPO consistently achieves the best performance on Geo3K and ChartQA metrics, demonstrating superior multimodal reasoning capabilities.
 
 | Method | Model | Geo3K | Math Avg. | HallBench | ChartQA |
 |--------|-------|-------|-----------|-----------|---------|
@@ -61,6 +68,8 @@ MBPO demonstrates significant improvements over baseline methods across multiple
 
 ### Table 3: Performance on K12 Dataset
 
+The following table shows performance results on the K12 dataset. MBPO achieves state-of-the-art performance across most metrics, with particularly strong improvements on K12, Math Avg., and ChartQA tasks, highlighting the effectiveness of branch-level credit assignment in multimodal reasoning.
+
 | Method | Model | K12 | Math Avg. | HallBench | ChartQA |
 |--------|-------|-----|-----------|-----------|---------|
 | Baseline | Qwen-3B | 43.10 | 42.35 | 59.83 | 74.54 |
@@ -73,10 +82,6 @@ MBPO demonstrates significant improvements over baseline methods across multiple
 | + DAPO | Qwen-7B | 67.65 (+15.59) | 54.52 (+5.88) | 68.71 (+7.62) | 81.76 (+3.63) |
 | + GSPO | Qwen-7B | 67.23 (+15.17) | 54.24 (+5.60) | 69.02 (+7.93) | 81.16 (+3.03) |
 | **+ MBPO** | **Qwen-7B** | **67.68 (+15.62)** | **55.51 (+6.87)** | **69.84 (+8.75)** | **86.36 (+8.23)** |
-
-<div align="center">
-  <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
-</div>
 
 ## 📖 Citation
 
