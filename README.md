@@ -75,7 +75,7 @@ MBPO demonstrates significant improvements over baseline methods across multiple
 | **+ MBPO** | **Qwen-7B** | **67.68 (+15.62)** | **55.51 (+6.87)** | **69.84 (+8.75)** | **86.36 (+8.23)** |
 
 <div align="center">
-  <img src="f3.png" alt="MBPO Performance Analysis" style="width: 90%; max-width: 1200px;">
+  <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
 </div>
 
 ## 📖 Citation
