@@ -4,7 +4,7 @@
 
 **Multi-Branch Policy Optimization via Tree Search for Multimodal Large Language Models**
 
-[![Paper](https://img.shields.io/badge/paper-arXiv-red)](https://arxiv.org/abs/XXXX.XXXXX) [![Code](https://img.shields.io/badge/code-GitHub-blue)](https://github.com/yourusername/mbpo) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Paper](https://img.shields.io/badge/paper-arXiv-red)](https://arxiv.org/abs/XXXX.XXXXX) [![Code](https://img.shields.io/badge/code-GitHub-blue)](https://github.com/ShuaiLyu0110/MBPO) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 </div>
 
@@ -13,7 +13,7 @@
 **MBPO** is a tree-based reinforcement learning framework that addresses credit assignment challenges in **multimodal large language model (MLLM)** training. Unlike traditional group-based methods that apply uniform trajectory-level advantages, MBPO enables **branch-level credit assignment** by representing candidate solutions as multimodal reasoning trees, allowing for more precise and informative learning signals in vision-language reasoning tasks.
 
 <div align="center">
-  <img src="f1.png" alt="MBPO Framework" style="width: 90%; max-width: 1000px;">
+  <img src="f1.png" alt="MBPO Framework" style="width: 95%; max-width: 1200px; max-height: 500px; height: auto;">
 </div>
 
 ## 🎯 Key Idea
@@ -29,7 +29,7 @@ MBPO addresses these challenges in multimodal settings by:
 2. **Temporal replay buffer**: Reuses informative segments while controlling policy staleness, improving sample efficiency for multimodal training
 
 <div align="center">
-  <img src="f2.png" alt="MBPO Advantage Comparison" style="width: 90%; max-width: 1000px;">
+  <img src="f2.png" alt="MBPO Advantage Comparison" style="width: 95%; max-width: 1200px; height: auto;">
 </div>
 
 ## 🚀 Key Features
@@ -94,7 +94,7 @@ If you find this work useful, please cite:
 ## 🔗 Resources
 
 - **📄 Paper**: Coming soon~
-- **💻 Code**: Coming soon~
+- **💻 Code**: [GitHub](https://github.com/ShuaiLyu0110/MBPO)
 - **📦 Dataset**: MMRL18K dataset will be released soon~
 
 ## 📝 License
