@@ -28,7 +28,7 @@ MBPO addresses these challenges in multimodal settings by:
 1. **Branch-level credit assignment**: Assigns relative advantages to sibling branches at each decision node in multimodal reasoning trees, enabling more accurate global advantage assignment
 2. **Temporal replay buffer**: Reuses informative segments while controlling policy staleness, improving sample efficiency for multimodal training
 
-We propose **MMRL18K**, a comprehensive multimodal reasoning dataset containing approximately 18K multimodal reasoning problems, which is integrated from k12-freeform-filtered and ThinkLite-VL-Hard-11k. This diverse dataset enables robust evaluation of MBPO's branch-level credit assignment across various vision-language reasoning scenarios.
+We propose **MMRL18K**, a comprehensive multimodal reasoning dataset containing approximately 18K multimodal reasoning problems, which is integrated from k12-freeform-filtered (obtained by filtering k12-freeform to retain high-quality multimodal reasoning problems) and ThinkLite-VL-Hard-11k. This diverse dataset enables robust evaluation of MBPO's branch-level credit assignment across various vision-language reasoning scenarios.
 
 <div align="center">
   <img src="f2.png" alt="MBPO Advantage Comparison" style="width: 95%; max-width: 1200px; height: auto;">
@@ -44,7 +44,7 @@ We propose **MMRL18K**, a comprehensive multimodal reasoning dataset containing 
 
 ## 📊 Results
 
-MBPO demonstrates significant improvements over baseline methods across multiple multimodal reasoning benchmarks. We evaluate on Geometry3K and k12-freeform-filtered datasets, comparing against GRPO, DAPO, and GSPO methods.
+MBPO demonstrates significant improvements over baseline methods across multiple multimodal reasoning benchmarks. We evaluate on Geometry3K and MMK12 datasets, comparing against GRPO, DAPO, and GSPO methods.
 
 <div align="center">
   <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
@@ -68,11 +68,11 @@ The following table presents detailed performance metrics on the Geometry3K data
 | + GSPO | Qwen-7B | 52.73 (+10.64) | **53.89 (+5.25)** | 67.33 (+6.24) | 79.71 (+1.58) |
 | **+ MBPO** | **Qwen-7B** | **56.07 (+13.98)** | 53.79 (+5.15) | **68.52 (+7.43)** | **85.15 (+7.02)** |
 
-### Table 3: Performance on k12-freeform-filtered Dataset
+### Table 3: Performance on MMK12 Dataset
 
-The following table shows performance results on the k12-freeform-filtered dataset. MBPO achieves state-of-the-art performance across most metrics, with particularly strong improvements on k12-freeform-filtered, Math Avg., and ChartQA tasks, highlighting the effectiveness of branch-level credit assignment in multimodal reasoning.
+The following table shows performance results on the MMK12 dataset. MBPO achieves state-of-the-art performance across most metrics, with particularly strong improvements on MMK12, Math Avg., and ChartQA tasks, highlighting the effectiveness of branch-level credit assignment in multimodal reasoning.
 
-| Method | Model | k12-freeform-filtered | Math Avg. | HallBench | ChartQA |
+| Method | Model | MMK12 | Math Avg. | HallBench | ChartQA |
 |--------|-------|-----|-----------|-----------|---------|
 | Baseline | Qwen-3B | 43.10 | 42.35 | 59.83 | 74.54 |
 | + GRPO | Qwen-3B | 55.82 (+12.72) | 48.04 (+5.69) | 63.84 (+4.01) | 78.31 (+3.77) |
