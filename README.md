@@ -13,7 +13,7 @@
 **MBPO** is a tree-based reinforcement learning framework that addresses credit assignment challenges in **multimodal large language model (MLLM)** training. Unlike traditional group-based methods that apply uniform trajectory-level advantages, MBPO enables **branch-level credit assignment** by representing candidate solutions as multimodal reasoning trees, allowing for more precise and informative learning signals in vision-language reasoning tasks.
 
 <div align="center">
-  <img src="f1.png" alt="MBPO Framework" style="width: 95%; max-width: 1200px; max-height: 500px; height: auto;">
+  <img src="f1.png" alt="MBPO Framework" style="width: 95%; max-width: 1200px; max-height: 500px; height: 90%;">
 </div>
 
 ## 🎯 Key Idea
