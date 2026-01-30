@@ -48,7 +48,6 @@ MBPO demonstrates significant improvements over baseline methods across multiple
 
 <div align="center">
   <img src="f3.png" alt="MBPO Performance Analysis" style="width: 70%; max-width: 1200px;">
-  <p><em>Figure: Performance analysis showing MBPO's improvements across different metrics and datasets compared to baseline methods.</em></p>
 </div>
 
 ### Table 2: Performance on Geometry3K Dataset
