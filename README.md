@@ -28,7 +28,7 @@ MBPO addresses these challenges in multimodal settings by:
 1. **Branch-level credit assignment**: Assigns relative advantages to sibling branches at each decision node in multimodal reasoning trees, enabling more accurate global advantage assignment
 2. **Temporal replay buffer**: Reuses informative segments while controlling policy staleness, improving sample efficiency for multimodal training
 
-We train and evaluate MBPO on **MMRL18K**, a comprehensive multimodal reasoning dataset combining k12-freeform-filtered and ThinkLite-VL-Hard-11k, containing approximately 18K multimodal reasoning problems. This diverse dataset enables robust evaluation of MBPO's branch-level credit assignment across various vision-language reasoning scenarios.
+We propose **MMRL18K**, a comprehensive multimodal reasoning dataset containing approximately 18K multimodal reasoning problems, which is integrated from k12-freeform-filtered and ThinkLite-VL-Hard-11k. This diverse dataset enables robust evaluation of MBPO's branch-level credit assignment across various vision-language reasoning scenarios.
 
 <div align="center">
   <img src="f2.png" alt="MBPO Advantage Comparison" style="width: 95%; max-width: 1200px; height: auto;">
